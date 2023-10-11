@@ -25,7 +25,9 @@ genre = st.radio(
     [":violet[我]", "阿德"],
     captions = ["怎麼看都要選我", "選他口味很重"],
     index=None)
-if genre == ':rainbow[我]':
+if genre == ':violet[我]':
     st.write('你真聰明')
+elif genre == '阿德':
+    st.write('你想不開')
 else:
     st.write("請小心選擇")
