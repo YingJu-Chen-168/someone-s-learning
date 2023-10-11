@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
 st.header('*Data elements*', divider= 'rainbow')
 st.subheader('不知道要放啥')
