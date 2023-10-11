@@ -4,7 +4,8 @@ st.header('*Text elements*', divider= 'rainbow')
 st.subheader('不知道要放啥')
 st.caption('_說明說明說明_')
 code= '''def hello():
-print("Hello!")'''
+    print("Hello!")
+    #大家要記得縮排不然會報錯喔'''
 st.code(code)
 st.divider()
 st.text("寫字寫字")
