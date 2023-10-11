@@ -4,7 +4,7 @@ st.header('*Input widgets*', divider= 'rainbow')
 st.subheader('不知道要放啥')
 st.caption('_說明說明說明_')
 st.button("Reset", type="primary")
-if st.button('跟我說早安'):
+if st.button('按這裡跟我說早安'):
     st.write('現在不是早上幹嘛說早安')
 else:
     st.write('想你了')
