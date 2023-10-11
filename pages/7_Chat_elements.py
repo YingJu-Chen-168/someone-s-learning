@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 import time
 
 st.header('*Chat elements*', divider= 'rainbow')
