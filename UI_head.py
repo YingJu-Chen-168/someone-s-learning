@@ -5,8 +5,8 @@ st.set_page_config(
     page_icon="🖋️",
 )
 
-st.title(':violet[人機介面]')
-st.header('耶', divider= 'rainbow')
+st.title('人機介面')
+st.header('demo', divider= 'rainbow')
 st.write("# Welcome! 👋")
-st.text("*這是一個不正經網頁*")
+#st.text("*這是一個不正經網頁*")
 st.balloons()
